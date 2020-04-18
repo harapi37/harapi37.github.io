@@ -6,6 +6,6 @@ This GitHub page's main purpose is to host my APIs in simple JSON-format for me.
 # APIs
 
 1. &emsp;[Joe Rogan Quotes API](https://harapi37.github.io/apis/jr_api.json) <br> 
-&emsp;    Simply a collection of random Joe Rogan quotes.
+&emsp;    Simply a collection of random Joe Rogan quotes (at the moment just a small amount of 10 entries).
 
 ---
