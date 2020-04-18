@@ -5,4 +5,4 @@ This GitHub page's main purpose is to host my APIs for me. But, whoever wants to
 ---
 # APIs
 
-1. [Joe Rogan Quotes API](https://harapi37.github.io/apis/jr_api.json)
+1. &emsp; [Joe Rogan Quotes API](https://harapi37.github.io/apis/jr_api.json)
