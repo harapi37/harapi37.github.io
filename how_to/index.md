@@ -3,13 +3,13 @@
 The following text will describe, with code samples in JavaScript, how to "import" and use "random" or "specific" entries in the JSON files.
 It will be a fairly simple, for everyone to understand, this is just one of many ways and there might be way shorter answers out there.
 
-1. First import the library:
+First import the library:
 
 ```
 https = require('https')
 ```
 
-2. Then, to get the data in a JSON object, we write the function httpGet():
+Then, to get the data in a JSON object, we write the function httpGet():
 
 ```
 function httpGet() {
@@ -42,7 +42,7 @@ function httpGet() {
 }
 ```
 
-3. Since these are more of databases without functions, you'll need to get the specific entry or a random entry yourself:
+Since these are more of databases without functions, you'll need to get the specific entry or a random entry yourself:
 
 To get a _random_ entry you need to implement... 
 
@@ -72,7 +72,7 @@ var rand = getRandomInt(1, response.all)
 var quote = response.quotes[rand]
 ```
 
-And to get a _specific_ entry just go for a number that you choose:
+And to get a _specific_ entry just simply go for a number that you choose:
 ```
 const response = await httpGet();
 var num = 6
