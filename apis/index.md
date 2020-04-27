@@ -1,10 +1,7 @@
-## How to Use the APIs/ Databases:
+## The APIs/ Databases:
 
-The following text will describe, with code samples in JavaScript, how to "import" and use "random" or "specific" entries in the JSON files.
-It will be a fairly simple, for everyone to understand, this is just one of many ways and there might be way shorter answers out there.
+1. &emsp;[Joe Rogan Quotes API](https://harapi37.github.io/apis/jr_api.json) <br> 
+&emsp;   Simply a collection of random Joe Rogan quotes (86 entries).
 
-First import the library:
-
-```
-https = require('https')
-```
+2. &emsp;[Riddles API](https://harapi37.github.io/apis/riddle_api.json) <br> 
+&emsp;   A collection of riddles (366 entries).
