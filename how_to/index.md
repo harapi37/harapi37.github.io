@@ -42,7 +42,7 @@ function httpGet() {
 }
 ```
 
-Since these are more of databases without functions, you'll need to get the specific entry or a random entry yourself:
+Since these are more of databases without functions, you'll need to retrieve the specific entry or a random entry yourself:
 
 To get a _random_ entry you need to implement... 
 
