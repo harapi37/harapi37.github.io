@@ -44,9 +44,9 @@ function httpGet() {
 
 Since these are more of databases without functions, you'll need to retrieve the specific entry or a random entry yourself:
 
-To get a _random_ entry you need to implement... 
+To get a _random_ entry you need to implement the function getRandomInt()... 
 
-(1) ... either the function getRandomInt() with min (inclusive) and max (inclusive):
+(1) ... either with min (inclusive) and max (inclusive):
 
 ```
 function getRandomInt(min, max) {
@@ -64,7 +64,7 @@ function getRandomInt(min, max) {
 }
 ```
 
-(3) And then call it with max as response.all (bc the number of entries in the JSON object is stored in the object "all"):
+And then call it with max as response.all (bc the number of entries in the JSON object is stored in the object "all"):
 
 ```
 const response = await httpGet();
@@ -72,7 +72,7 @@ var rand = getRandomInt(1, response.all)
 var quote = response.quotes[rand]
 ```
 
-And to get a _specific_ entry just simply go for a number that you choose:
+To get a _specific_ entry just simply go for a number, that you choose:
 ```
 const response = await httpGet();
 var num = 6
