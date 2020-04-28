@@ -46,7 +46,7 @@ Since these are more of databases without functions, you'll need to retrieve the
 
 To get a _random_ entry you need to implement... 
 
-(1) ... either write the function with min (inclusive) and max (inclusive):
+(1) ... either the function getRandomInt() with min (inclusive) and max (inclusive):
 
 ```
 function getRandomInt(min, max) {
@@ -56,10 +56,10 @@ function getRandomInt(min, max) {
 }
 ```
 
-(2) ... or write the function with min (inclusive) and max (exclusive):
+(2) ... or with min (inclusive) and max (exclusive):
 
 ```
-function getRandomArbitrary(min, max) {
+function getRandomInt(min, max) {
      return Math.random() * (max - min) + min;
 }
 ```
